@@ -1,0 +1,27 @@
+{
+  "name": "@hardened/theme",
+  "version": "1.0.0",
+  "description": "Theme for Hardened Cloud application",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('You must use Yarn to install, not NPM')\"",
+    "clean": "rimraf dist *.tsbuildinfo",
+    "build": "yarn clean && yarn compile",
+    "compile": "tsc --build && cp \"./package.json\" ./dist/",
+    "start": "tsc --build --watch --preserveWatchOutput",
+    "test": "echo 'no test'",
+    "lint": "eslint src --ext ts,js,tsx,jsx"
+  },
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.11.4"
+  }
+}

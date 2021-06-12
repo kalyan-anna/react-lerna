@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@hardened/ui-components/*": ["ui-components/src/*"],
+      "@hardened/hc-admin-app/*": ["hc-admin-app/src/*"],
+      "@hardened/theme/*": ["theme/src/*"]
+    }
+  },
+  "files": [],
+  "references": [{ "path": "ui-components" }, { "path": "hc-admin-app" }, { "path": "theme" }]
+}

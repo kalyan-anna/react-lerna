@@ -1,0 +1,31 @@
+{
+  "name": "@hardened/ui-components",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('You must use Yarn to install, not NPM')\"",
+    "clean": "rimraf dist *.tsbuildinfo",
+    "build": "yarn clean && yarn compile",
+    "compile": "tsc --build && cp \"./package.json\" ./dist/",
+    "start": "tsc --build --watch --preserveWatchOutput",
+    "test": "echo 'no test'",
+    "lint": "eslint src --ext ts,js,tsx,jsx"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@hardened/theme": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.11.4",
+    "react": "^17.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ]
+}
