@@ -27,7 +27,7 @@ const loadRules = () => {
 const uploadRule = (accountId: string, raw: any) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      console.log('accountId:', accountId, ' raw:', raw);
+      console.log('accountId:', accountId, '...raw:', raw);
       resolve({});
     }, 2000);
   });

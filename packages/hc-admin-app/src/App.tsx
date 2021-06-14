@@ -1,6 +1,6 @@
 import {} from 'react-redux';
 
-import { GlobalStyles, customTheme } from '@hardened/theme';
+import { GlobalStyles, customTheme } from '@configer/theme';
 import { persistor, store } from './store';
 
 import { BrowserRouter } from 'react-router-dom';
@@ -17,7 +17,7 @@ function App() {
       <PersistGate loading={undefined} persistor={persistor}>
         <BrowserRouter>
           <ThemeProvider theme={customTheme}>
-            <Helmet defaultTitle="Hardened Cloud | Home" />
+            <Helmet defaultTitle="Config Master | Home" />
             <CssBaseline />
             <GlobalStyles />
             <PrimaryLayout />

@@ -30,8 +30,8 @@ export const AppLogo = () => {
   return (
     <a href="/" className={classes.root}>
       <Box flexDirection="row" alignItems="center" display="flex">
-        <img src="PwC-logo.svg" className={classes.logo} alt="Hardened Cloud App Logo" />
-        <span className={classes.appTitle}>Hardened Cloud</span>
+        <img src="logo.png" className={classes.logo} alt="Config Master App Logo" />
+        <span className={classes.appTitle}>Config Master</span>
       </Box>
     </a>
   );

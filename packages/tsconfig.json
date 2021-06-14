@@ -3,9 +3,9 @@
     "jsx": "react",
     "baseUrl": "./",
     "paths": {
-      "@hardened/ui-components/*": ["ui-components/src/*"],
-      "@hardened/hc-admin-app/*": ["hc-admin-app/src/*"],
-      "@hardened/theme/*": ["theme/src/*"]
+      "@configer/ui-components/*": ["ui-components/src/*"],
+      "@configer/hc-admin-app/*": ["hc-admin-app/src/*"],
+      "@configer/theme/*": ["theme/src/*"]
     }
   },
   "files": [],

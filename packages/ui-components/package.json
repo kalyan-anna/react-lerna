@@ -1,5 +1,5 @@
 {
-  "name": "@hardened/ui-components",
+  "name": "@configer/ui-components",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,7 @@
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
-    "@hardened/theme": "^1.0.0"
+    "@configer/theme": "^1.0.0"
   },
   "peerDependencies": {
     "@material-ui/core": "^4.11.4",

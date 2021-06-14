@@ -1,4 +1,4 @@
-# Hardened Cloud Mono Repository
+# Mono Repository example
 
 To run the application locally
 

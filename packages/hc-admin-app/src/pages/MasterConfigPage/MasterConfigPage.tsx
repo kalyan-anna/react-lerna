@@ -5,7 +5,7 @@ import { Rule, bulkDisableRules, bulkEnableRules, ruleSelector } from '../../sto
 import { useAppDispatch, useAppSelector } from '../../store';
 
 import { Helmet } from 'react-helmet';
-import { PageHeader } from '@hardened/ui-components';
+import { PageHeader } from '@configer/ui-components';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -36,7 +36,7 @@ export const MasterConfigPage = () => {
   return (
     <div className={classes.root}>
       <Helmet>
-        <title>Hardened Cloud | Master Config</title>
+        <title>Cloud Master | Master Config</title>
       </Helmet>
       <PageHeader title="Master config" />
       <Box mt={4} />

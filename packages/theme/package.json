@@ -1,7 +1,7 @@
 {
-  "name": "@hardened/theme",
+  "name": "@configer/theme",
   "version": "1.0.0",
-  "description": "Theme for Hardened Cloud application",
+  "description": "Theme for Config Master application",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": true,

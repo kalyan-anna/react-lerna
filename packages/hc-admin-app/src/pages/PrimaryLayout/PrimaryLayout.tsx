@@ -1,5 +1,5 @@
 import { Backdrop, makeStyles } from '@material-ui/core';
-import { Header, SideNav } from '@hardened/ui-components';
+import { Header, SideNav } from '@configer/ui-components';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { loadRules, ruleSelector } from '../../store/rule';
 import { useAppDispatch, useAppSelector } from '../../store';
@@ -53,7 +53,7 @@ export const PrimaryLayout = () => {
               );
             })}
             <Route path="/">
-              <Redirect to="/aws-config" />
+              <Redirect to="/accounts" />
             </Route>
           </Switch>
         </main>

@@ -1,7 +1,7 @@
 {
-  "name": "@hardened/hc-mono",
+  "name": "@configer/hc-mono",
   "version": "1.0.0",
-  "description": "Hardened Cloud Mono Repo",
+  "description": "Config Master Mono Repo",
   "main": "index.js",
   "private": true,
   "scripts": {

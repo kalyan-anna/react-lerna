@@ -1,5 +1,5 @@
 {
-  "name": "@hardened/hc-admin-app",
+  "name": "@configer/hc-admin-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,8 +15,8 @@
     "@aws-sdk/client-lambda": "^3.17.0",
     "@aws-sdk/client-s3": "^3.16.0",
     "@aws-sdk/credential-provider-cognito-identity": "^3.17.0",
-    "@hardened/theme": "^1.0.0",
-    "@hardened/ui-components": "^1.0.0",
+    "@configer/theme": "^1.0.0",
+    "@configer/ui-components": "^1.0.0",
     "@material-ui/core": "^4.11.4",
     "@material-ui/data-grid": "^4.0.0-alpha.29",
     "@material-ui/icons": "^4.11.2",

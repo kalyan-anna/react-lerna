@@ -1,3 +1,3 @@
-# Hardened Cloud
+# Config Master theme
 
-Theme for Hardened Cloud application
+Theme for Config Master application

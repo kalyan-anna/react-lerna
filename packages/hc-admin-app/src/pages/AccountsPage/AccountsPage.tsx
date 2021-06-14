@@ -6,7 +6,7 @@ import { useAppDispatch, useAppSelector } from '../../store';
 import { useEffect, useState } from 'react';
 
 import { Helmet } from 'react-helmet';
-import { PageHeader } from '@hardened/ui-components';
+import { PageHeader } from '@configer/ui-components';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -57,7 +57,7 @@ export const AccountsPage = () => {
   return (
     <div className={classes.root}>
       <Helmet>
-        <title>Hardened Cloud | Accounts</title>
+        <title>Config Master | Accounts</title>
       </Helmet>
       <PageHeader title="Accounts" />
       <FormControl variant="filled" className={classes.selectControl}>
